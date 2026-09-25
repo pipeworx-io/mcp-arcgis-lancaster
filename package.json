@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-lancaster",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lancaster County GIS — Lancaster County, Pennsylvania open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-726e206fe401b8f819ca8f7d7d23d800aeec47c6bf37c3558b4ff0102e7e15e5",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-e554f1c9d82f9f100ad598a5b73a21bb644ea63e6769c400e7f4dfe628c76013",
+    "sourceCommit": "454041882179fae560c06e770b6b7a2f33970015"
   }
 }
