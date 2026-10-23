@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/arcgis-lancaster",
   "title": "Arcgis Lancaster",
   "description": "Lancaster County GIS — Lancaster County, Pennsylvania open geospatial data (ArcGIS).",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "websiteUrl": "https://pipeworx.io/packs/arcgis-lancaster",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-arcgis-lancaster",
