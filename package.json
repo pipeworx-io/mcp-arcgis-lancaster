@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-arcgis-lancaster",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Lancaster County GIS — Lancaster County, Pennsylvania open geospatial data (ArcGIS).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-arcgis-lancaster": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-lancaster"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-arcgis-lancaster.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/arcgis-lancaster",
   "pipeworx": {
-    "sourceHash": "v1-b645cfb2636534c4119fa4a00f0e7fa86b180ccaabedd28ae904027ce56b4211",
-    "sourceCommit": "93c7d52ace03a2bb9aee5e6024f6858adab0dd04"
+    "mode": "gateway",
+    "slug": "arcgis-lancaster",
+    "gatewaySlug": "arcgis-lancaster",
+    "sourceHash": "v1-24d47fe0b8199c7045e380f6c591675a83121bd49bbd863ed0aa5aac175e9d0d",
+    "sourceCommit": "c6136b81713e72ccb22977ca0c0cd981f8c3f081"
   }
 }
